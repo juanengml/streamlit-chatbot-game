@@ -24,7 +24,7 @@ def main():
            r = get(endpoint,data).json()
           # st.write(data)
            #st.write(r)
-           st.text_area(" 🤖 ACC: {} Bot:".fomat(r['confidence'],r['bot']['GeorgeBot'], key=None)
+           st.text_area(" 🤖 ACC: {} Bot:".fomat(r['confidence']),r['bot']['GeorgeBot'], key=None)
 
         
 if __name__ == "__main__":
